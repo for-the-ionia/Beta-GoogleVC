@@ -11,5 +11,5 @@
 hostname = pornhub.com, cn.pornhub.com, www.google.cn
 
 [Rule]
-DOMAIN-SUFFIX,pornhub.com,🌑Proxy // 最大的垃圾
+DOMAIN-SUFFIX,pornhub.com,Proxy // 最大的垃圾
 DOMAIN-KEYWORD,porn,Reject // 垃圾桶
