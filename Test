@@ -11,7 +11,8 @@
 hostname = pornhub.com, cn.pornhub.com, www.google.cn
 
 [Rule]
-DOMAIN-KEYWORD,porn,Reject // 垃圾
+DOMAIN-SUFFIX,pornhub.com,DIRECT // 最大的垃圾
+DOMAIN-KEYWORD,porn,Reject // 垃圾桶
 
 #以下DNS分流抄袭自https://github.com/VirgilClyne
 [General]
