@@ -11,4 +11,4 @@
 hostname = *porn.com, pornhub.com, cn.pornhub.com, www.google.cn
 
 [Rule]
-DOMAIN-KEYWORD,porn,Reject // 垃圾桶
+URL-REGEX,^https://(?!.*(hub)).*(porn)\.com,Reject // 垃圾桶
