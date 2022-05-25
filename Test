@@ -9,3 +9,6 @@
 
 [MITM]
 hostname = pornhub.com, cn.pornhub.com, www.google.cn
+
+[Rule]
+DOMAIN-KEYWORD,porn,Reject // 垃圾
