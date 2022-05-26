@@ -11,5 +11,6 @@
 hostname = *onlyfans.com, *porn.com, pornhub.com, cn.pornhub.com, www.google.cn
 
 [Rule]
-URL-REGEX,^https://(?!.*(hub)).*(porn)\.com,Reject // 垃圾桶
+URL-REGEX,^https://(?!.*(hub)).*(porn)\.com,Reject
+RULE-SET,https://raw.githubusercontent.com/dhawudh/Beta-GoogleVC/main/PN.list,REJECT
 
